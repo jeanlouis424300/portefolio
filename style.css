@@ -1,0 +1,58 @@
+.centreimage{
+    text-align:center ;
+  }
+
+.gaucheimage{
+    text-align:left ;
+}
+
+  .imageheader{
+    width: 200px;
+    height: 200px;
+  }
+  .textheader{
+    text-align: center;
+  }
+.flex{
+    display:flex ;
+    flex-wrap:wrap;
+   
+  
+  }
+
+  .justifyconte{
+    justify-content: space-between;
+  }
+
+  .justifycenter{
+    justify-content: center;
+  }
+
+  .marginleft{
+    margin-left: 60px;
+  }
+
+  .marginleft2{
+    margin-left: 188px;
+  }
+  
+  .imageheader2{
+    width: 20%;
+  }
+
+  h1{
+    color: #625204;
+    font-weight: bold;
+    background-color: black;
+  }
+  h2{
+    color: red;
+    font-weight: bold;
+    background-color: black;
+  }
+
+  h3{
+    color: #625204;
+    font-weight: bold;
+    background-color: black;
+  }
