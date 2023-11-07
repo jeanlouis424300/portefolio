@@ -6,6 +6,11 @@
     text-align:left ;
 }
 
+.logoheader{
+  width: 300px;
+  height:300px ;
+}
+
   .imageheader{
     width: 200px;
     height: 200px;
@@ -16,8 +21,12 @@
 .flex{
     display:flex ;
     flex-wrap:wrap;
-   
-  
+  }
+
+  .flex2{
+    display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
   }
 
   .justifyconte{
@@ -28,31 +37,88 @@
     justify-content: center;
   }
 
-  .marginleft{
-    margin-left: 60px;
-  }
-
-  .marginleft2{
-    margin-left: 188px;
-  }
   
   .imageheader2{
     width: 20%;
   }
 
   h1{
-    color: #625204;
+    color:  #9b8515;
     font-weight: bold;
-    background-color: black;
+    font-size: 60px;
   }
   h2{
-    color: red;
+    color: rgb(138, 133, 133);
     font-weight: bold;
-    background-color: black;
+    font-size: 40px;
   }
 
   h3{
-    color: #625204;
+    color: #9b8515;
     font-weight: bold;
-    background-color: black;
+  font-size: 60px;
+}
+ 
+  a{
+    font-weight: bold;
+    color: rgb(235, 229, 229);
+    border-radius:16px ;
+    padding : 8px 16px;
+    margin-top: 16px;
+    display: inline-block;
   }
+
+  .bg-colorlien{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(7,8,23,1) 52%, rgba(0,212,255,1) 100%);
+  }
+
+.bg-colorheader{
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(7,8,23,1) 52%, rgba(0,212,255,1) 100%);
+}
+
+.colortextheader{
+  color: #dcd2d2;
+}
+
+.pheader{
+  
+  font-size: 30px;
+}
+
+.margetop{
+  margin-top: 40px;
+}
+
+.justifycontent{
+  justify-content:space-around ;
+}
+
+.gauche{
+  width:20% ;
+}
+
+.gauche2{
+  width: 30%;
+}
+
+.droite{
+  width: 60%;
+}
+.pheaderp{
+  margin: 1px;
+}
+
+.newpolice{
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+h4{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.policerole{
+  font-size: 20px;
+}
